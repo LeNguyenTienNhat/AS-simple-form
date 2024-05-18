@@ -3,7 +3,6 @@
     <item android:color="@color/white" android:state_focused="true"/>
     <item android:color="@color/white" android:state_hovered="true"/>
     <item android:color="@color/white" android:state_enabled="false"/>
+    <item android:color="@color/white" android:state_enabled="true"/>
     <item android:color="@color/white" android:state_pressed="true" />
-    <item android:color="@color/white" android:state_focused="true" />
-    <item android:color="@color/white" />
 </selector>

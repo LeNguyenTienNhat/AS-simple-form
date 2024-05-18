@@ -15,7 +15,7 @@
         <item name="android:layout_height">wrap_content</item>
     </style>
 
-    <style name="input_layout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+    <style name="input_layout" parent="Widget.MaterialComponents.TextInputLayout.FilledBox">
         <item name="android:textColorHint">@color/faded_white</item>
         <item name="android:textColor">@color/faded_white</item>
         <item name="android:layout_width">345dp</item>
