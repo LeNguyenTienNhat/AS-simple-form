@@ -43,7 +43,9 @@
             <TextView
                 style="@style/language_config"
                 android:textColor="@color/white"
-                android:text="@string/change_language"/>
+                android:text="@string/change_language"
+                android:clickable="true"/>
+
         </LinearLayout>
 
         <EditText
@@ -74,12 +76,33 @@
             android:id="@+id/signUpText"
             style="@style/small_text"
             android:text="@string/sign_up_suggestion"
-            android:layout_marginTop="75dp"/>
+            android:layout_marginTop="75dp"
+            android:clickable="true"/>
 
         <TextView
             android:id="@+id/forgotText"
             style="@style/small_text"
-            android:text="@string/forgot_password_suggestion" />
+            android:text="@string/forgot_password_suggestion"
+            android:clickable="true"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="end"
+            >
+            <ImageButton
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/faq"
+                android:scaleType="centerInside"
+                android:scaleX="0.4"
+                android:scaleY="0.4"
+                android:src="@drawable/help" />
+        </LinearLayout>
+
+
 
     </LinearLayout>
 
