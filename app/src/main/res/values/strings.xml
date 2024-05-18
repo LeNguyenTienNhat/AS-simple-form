@@ -1,8 +1,10 @@
 <resources>
     <string name="app_name">Assignment2</string>
-    <string name="username_field">Username</string>
+    <string name="user_field">Email or Phone</string>
     <string name="password_field">Password</string>
     <string name="sign_up_suggestion">Sign up for Facebook</string>
     <string name="sign_in_button">LOG IN</string>
     <string name="forgot_password_suggestion">Forgot password?</string>
+    <string name="current_language">English</string>
+    <string name="change_language">Change</string>
 </resources>
