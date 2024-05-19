@@ -7,4 +7,9 @@
     <color name="heavy_faded_white">#20FFFFFF</color>
     <color name="faded_blue">#4B73C5</color>
     <color name="facebook_blue">#3B5A99</color>
+
+    <color name="input_background">#AA539A</color>
+    <color name="input_text_color">#CCA7D2</color>
+    <color name="input_hint_color">#FAFAFA</color>
+    <color name="button_text_color">#EDE7F6</color>
 </resources>
