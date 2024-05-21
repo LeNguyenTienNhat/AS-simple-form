@@ -1,8 +1,6 @@
 package com.example.assignment2;
 
-import android.content.Intent;
 import android.os.Bundle;
-import android.text.Editable;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -14,14 +12,8 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
-        //Bind layout
         setContentView(R.layout.facebook);
-
-        //Bind view (element in HTML)
         Button signInBtn = (Button) findViewById(R.id.signInBtn);
-
-        //Set event on click for button
         signInBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -31,15 +23,11 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void onSignIn(View v) {
-        String rightPassword = "123456";
-        String username = "admin";
-
-        //Get EditText content
+        EditText userInputField = (EditText) findViewById(R.id.user);
         EditText passwordInputField = (EditText) findViewById(R.id.password);
-        String inputtedPassword = (String) passwordInputField.getText().toString();
-
-        //Business logic
-        if (rightPassword.equals(inputtedPassword)) {
+        String username = (String) userInputField.getText().toString();
+        String password = (String) passwordInputField.getText().toString();
+        if (username.equals("admin") && password.equals("123456")) {
             Toast.makeText(MainActivity.this, "Login successfully", Toast.LENGTH_SHORT).show();
         }
         else {
